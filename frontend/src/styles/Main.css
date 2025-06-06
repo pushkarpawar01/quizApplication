@@ -1,0 +1,55 @@
+.container ol li{
+    font-size: 1.4em;
+    color: #140505;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+.conatiner1{
+    display: flex;
+    flex-direction: row;
+}
+.container .heading{
+    font-size: xx-large;
+}
+.input{
+    width: 200px;
+    height: 50px;
+}
+.container > .title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+  .questions > h2.text-light {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
