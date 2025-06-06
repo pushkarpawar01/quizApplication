@@ -9,7 +9,7 @@ dotenv.config();
 
 async function seedDatabase() {
     try {
-        await mongoose.connect("mongodb+srv://pushkarpawar3477:Dn9EHy5GHnSzAbRH@cluster1.2pgkx4o.mongodb.net/", {
+        await mongoose.connect(process.env.ATLAS_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
